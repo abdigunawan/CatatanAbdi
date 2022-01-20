@@ -18,14 +18,14 @@
             android:id="@+id/tvJudul"
             style="@style/TextView.PoppinsSemiBold16sp8020202"
             android:layout_width="0dp"
-            android:background="@color/abuAbu"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:textColor="@color/hijauTua"
+            android:layout_marginEnd="16dp"
+            android:background="@color/abuAbu"
             android:text=""
-            app:layout_constraintEnd_toStartOf="@+id/ivDelete"
+            android:textColor="@color/hijauTua"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,25 +35,15 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:background="@color/abuAbu"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
+            android:background="@color/abuAbu"
             android:text=""
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/ivDelete"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvJudul" />
-
-        <ImageView
-            android:id="@+id/ivDelete"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginEnd="16dp"
-            android:background="@color/abuAbu"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
